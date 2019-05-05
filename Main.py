@@ -14,7 +14,7 @@ def check_if_data_exists(symbol):
 
 def main():
 
-    symbols = [x[:-4] for x in os.listdir('Minute Prices/')]
+    symbols = [x[:-4] for x in os.listdir('./Minute Prices/')]
 
     while True:
         print('Stock Tickers:')
