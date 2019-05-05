@@ -52,7 +52,7 @@ def main():
 
 if __name__ == '__main__':
     os.chdir(os.getcwd() + '/VolatilityDecomposition/')
-    log_file = '/Logs/run.log'
+    log_file = './Logs/run.log'
     if os.path.exists(log_file):
         os.remove(log_file)
 
